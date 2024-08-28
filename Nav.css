@@ -1,0 +1,26 @@
+.navmenu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navmenu .nav-item {
+  margin-right: 20px; 
+}
+
+.navmenu a {
+  color: #2c2c2c;
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.42s ease;
+  cursor: pointer;
+}
+
+.navmenu a:hover {
+  color: #ee1c47;
+  
+}
